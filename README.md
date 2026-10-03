@@ -13,7 +13,7 @@ Bannerbear V5 MCP server and CLI for Codex and AI agents. 75 shared tools for te
 
 One package gives you a task CLI, local stdio MCP and versioned desktop bundle. Built and maintained by [Navid Moazzez](https://navid.me?utm_source=github&utm_medium=referral&utm_campaign=bannerbear-mcp-cli&utm_content=readme). Complete setup: [navid.me](https://navid.me/mcp-servers/bannerbear?utm_source=github&utm_medium=referral&utm_campaign=bannerbear-mcp-cli&utm_content=guide).
 
-<img src="https://cdn.navid.me/repos/bannerbear-mcp-cli.gif?v=2.0.0" alt="Illustrated Bannerbear workflow using the same terminal component as navid.me" width="520">
+<img src="https://cdn.navid.me/repos/bannerbear-mcp-cli-retina.gif" alt="Illustrated Bannerbear workflow using the same terminal component as navid.me" width="520">
 
 The terminal is an illustration of shipped command names and review/confirmation. It is not a recorded paid render. The official MCP already exists and is compared fairly below. Provider outcomes, desktop GUI and matched token/task measurements remain separately pending.
 
