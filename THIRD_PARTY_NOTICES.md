@@ -1,0 +1,3 @@
+# Third-party notices
+
+The owned wrapper preserves the existing AGPL-3.0-or-later license and Navid Media shared framework. Current Bannerbear V5 request-shape facts are transformed from its public OpenAPI schema; source and distributed checksums are recorded in src/tools/api-source.json. Expressive descriptions, examples and vendor execution code are excluded. Official @bannerbear/mcp 0.13.0 declares MIT and is inspected for comparison only; its execution code is not redistributed here. Dependency notices remain in their installed packages. Packaging/development tools are excluded from the desktop runtime. Bannerbear trademarks, provider terms and content rights remain separate.

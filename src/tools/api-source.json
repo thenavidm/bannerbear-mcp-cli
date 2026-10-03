@@ -1,0 +1,56 @@
+{
+  "checked": "2026-10-03",
+  "officialPackage": "@bannerbear/mcp",
+  "version": "0.13.0",
+  "npmIntegrity": "sha512-DD2dzO1STA9IAHZSz+tWPGhbd9XUiZpNCNiTfaOrW0pdamFzlWXTTeK9OTmpETxx8dGu3SwtN5em8QbjMWK6mQ==",
+  "archiveSha256": "04e41b016917be1e152d18b6217044c6b43cf711dc206ac7fe61f0fcf6c53d9b",
+  "openapi": {
+    "url": "https://api.bannerbear.com/v5/openapi.json",
+    "sha256": "745da36239a30e6f2bdd2f4f99f6810ac33ec55e40a222cc22c1b5f9e044d04b",
+    "bytes": 240977,
+    "info": {
+      "title": "Bannerbear V5 API",
+      "version": "5.0"
+    },
+    "pathCount": 47,
+    "operationCount": 67,
+    "distributedMetadataSha256": "cbd2d4bf96146d176880c934c28e104e67ff6f6102bf52a213cc6fbb13d6f44a",
+    "expressiveDescriptionsExcluded": true,
+    "localCorrections": [
+      {
+        "operation": "generate_ai_video",
+        "field": "duration",
+        "change": "type string \u2192 integer to match numeric enum/default; provider acceptance unverified"
+      },
+      {
+        "operation": "create_batch",
+        "field": "items",
+        "change": "documented 1\u2013100 local bound"
+      },
+      {
+        "field": "page",
+        "change": "local positive integer 1\u20131,000,000 bound"
+      }
+    ]
+  },
+  "officialBaselineProof": {
+    "checked": "2026-10-03",
+    "officialPackage": "@bannerbear/mcp",
+    "version": "0.13.0",
+    "npmIntegrity": "sha512-DD2dzO1STA9IAHZSz+tWPGhbd9XUiZpNCNiTfaOrW0pdamFzlWXTTeK9OTmpETxx8dGu3SwtN5em8QbjMWK6mQ==",
+    "archiveSha256": "04e41b016917be1e152d18b6217044c6b43cf711dc206ac7fe61f0fcf6c53d9b",
+    "openapi": {
+      "url": "https://api.bannerbear.com/v5/openapi.json",
+      "sha256": "745da36239a30e6f2bdd2f4f99f6810ac33ec55e40a222cc22c1b5f9e044d04b",
+      "bytes": 240977,
+      "info": {
+        "title": "Bannerbear V5 API",
+        "version": "5.0"
+      },
+      "pathCount": 47
+    },
+    "officialRepo": "yongfook/bannerbear-mcp",
+    "officialRepoCommit": "20bd78c211b56693903b59da4d403c3012aeac8a",
+    "declaredLicense": "MIT"
+  }
+}
