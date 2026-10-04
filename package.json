@@ -1,12 +1,13 @@
 {
   "name": "@thenavidm/bannerbear-mcp-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Bannerbear V5 MCP and shared CLI with private workspace profiles, confirmed renders and exclusive signing-key delivery.",
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
     "bannerbear-mcp": "dist/index.js",
-    "bannerbear-cli": "dist/index.js"
+    "bannerbear-cli": "dist/index.js",
+    "bannerbear-mcp-cli": "dist/npx.js"
   },
   "engines": {
     "node": ">=22"
