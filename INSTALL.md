@@ -302,7 +302,7 @@ npx @latest resolves on process startup; reconnect/restart to use the new versio
 | Old V2 body rejected | Use object-shaped V5 modifications and actual V5 endpoint schemas |
 | Secret result file rejected | New absolute canonical path, existing private directory, no overwrite |
 | Still pending / polling cap | Continue reading the same UID or use provider webhooks |
-| CLI token comparison absent | Actual matched Codex usage has not been measured |
+| `which` does not name the command | Bannerbear's operation descriptions name the endpoint, not the task; read the command list or a command's `--help` |
 
 Share sanitized error/status, package/Node/client versions and operation name; omit keys, private IDs, bodies, media URLs and secret files.
 

@@ -22,4 +22,6 @@ Our useful difference is terminal automation using the same confirmed handlers a
 | Official workflow profile | Eight local fixture tools and provider workflow results | Official composition already reduces manual steps; no claimed token winner |
 | --select / bounded reads | Locally selected fields and capped pages | Proven output bounds; no measured saving percentage |
 
+The README's section 7 has the measured costs: Claude Code 2.1.286 with every tool loaded and with tool search, `SKILL.md`, and Codex 0.159.3 over MCP and the CLI for one discovery task, each against 2.0.1.
+
 Measure Codex first with actual API usage, identical tasks/resources/permissions/results and pinned client/model/package/date. Tool discovery characters divided by four, another repo's measurements and tool counts are not token evidence. No fresh matched Codex measurements are published for this release. Claude Code benchmarks are deferred at Navid's instruction.
