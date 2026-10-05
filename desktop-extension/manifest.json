@@ -2,7 +2,7 @@
   "manifest_version": "0.2",
   "name": "bannerbear",
   "display_name": "Bannerbear MCP Server & CLI",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Bannerbear V5 tools with confirmed mutations and private workspace keys.",
   "long_description": "75 shared tools: 33 reads/helpers and 42 confirmed mutations. Current V5 templates, renders, workflows, assets and private signing-key delivery.",
   "author": {

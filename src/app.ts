@@ -39,6 +39,9 @@ export const INSTRUCTIONS = "Bannerbear V5 MCP and shared CLI. All renders, uplo
 /** Helpers that never leave this machine. */
 const LOCAL = new Set(["list_accounts", "get_operation_schema", "preview_operation", "preview_render_batch", "get_layer_schema"]);
 
+/** What 2.x's refusal said a confirmed call can do; the refusal and the approval form say it again. */
+const WHY = "may affect workspace media, credits, templates or integration configuration";
+
 const LOGIN_HINT = "Run `bannerbear-cli login` for what to set.";
 
 /**
@@ -72,6 +75,7 @@ function toTool(spec: ToolSpec): Tool<Context> {
     risk: spec.risk,
     // 2.x asked for confirmation where the risk === "destructive".
     requireConfirm: spec.risk === "destructive",
+    ...(spec.risk === "destructive" ? { consequence: WHY } : {}),
     openWorld: !LOCAL.has(spec.name),
     summary: () => spec.title,
     handler: async (args, ctx) => {

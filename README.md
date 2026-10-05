@@ -3210,11 +3210,11 @@ Our useful difference is terminal automation using the same confirmed handlers a
 
 | Component | Reviewed version / source |
 | --- | --- |
-| Owned wrapper / manifest | 3.0.0; source, npm and desktop versions must match |
+| Owned wrapper / manifest | 3.0.1; source, npm and desktop versions must match |
 | Bannerbear API | V5 / OpenAPI info 5.0 |
 | OpenAPI snapshot | SHA-256 745da36239a30e6f2bdd2f4f99f6810ac33ec55e40a222cc22c1b5f9e044d04b, Oct3 2026 |
 | Official local MCP | @bannerbear/mcp 0.13.0; npm archive/source pinned in comparison evidence |
-| @thenavidm/slipway | 0.1.12 |
+| @thenavidm/slipway | 0.1.17 |
 | MCP TypeScript SDK, through Slipway | 2.3.0 |
 | ajv | 8.20.0 |
 | ajv-formats | 3.0.1 |
